@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*-------Header-------------------------------------------------------------------------*/
+.logo {
+    position: relative;
+}
+.logo h2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0px 0px 0px;
+}
+.logo h2::after {
+    display: block;
+    content: ".........";
+    color: #3AE374;
+    margin-top: -12px;
+}
+.navbar button {
+    float: right;
+}
+button:focus {
+    outline: none;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+.navbar-toggler:focus, .navbar-toggler:hover .navbar-toggler:active {
+    text-decoration: none;
+}
+.button-toggle {
+    display: block;
+    width: 100%;
+}
+.bg-light {
+    background-color: transparent !important;
+}
