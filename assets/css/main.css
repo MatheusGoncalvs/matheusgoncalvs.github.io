@@ -100,7 +100,8 @@ nav .icones-redes a:active, a:hover {
 }
 /*---------------Seção Inicio-------------------------------------------------------------------*/
 .secao {
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 .img-badges {
     float: right;
@@ -171,4 +172,13 @@ nav .icones-redes a:active, a:hover {
         color: var(--cor-secundaria);
         font-size: 28px;
     }
+}
+/*---------------Seção Skills-------------------------------------------------------------------*/
+.baner-skills {
+    width: 100%;
+    height: 140px;
+    background-color: var(--cor-secundaria);
+}
+#skills .titulo-secao {
+    margin-bottom: 2rem;
 }
