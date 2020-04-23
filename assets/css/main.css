@@ -1,3 +1,10 @@
+:root {
+    --cor-primaria: #333333;
+    --cor-secundaria: #3AE374;
+}
+a {
+    color: var(--cor-primaria);
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,7 +21,7 @@ body {
 .logo h2::after {
     display: block;
     content: ".........";
-    color: #3AE374;
+    color: var(--cor-secundaria);
     margin-top: -12px;
 }
 .navbar button {
@@ -35,4 +42,19 @@ button:focus {
 }
 .bg-light {
     background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--cor-primaria);
+}
+.nav-item i {
+    float: left;
+    padding-top: 10px;
+    padding-right: 7px;
+}
+nav .icones-redes i {
+    padding-top: 20px;
+    margin-right: 13px;
+}
+nav .icones-redes a:active, a:hover {
+    color: var(--cor-secundaria);
 }
