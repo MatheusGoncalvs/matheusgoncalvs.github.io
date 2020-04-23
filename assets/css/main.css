@@ -9,16 +9,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 /*-------Header-------------------------------------------------------------------------*/
-.logo {
+.logo-mobile {
     position: relative;
 }
-.logo h2 {
+.logo-desktop {
+    display: none;
+}
+.logo-mobile h2 {
     position: absolute;
     font-size: 20px;
     font-weight: 600;
-    margin: 15px 0px 0px 0px;
+    margin-top: 15px;
 }
-.logo h2::after {
+.logo-mobile h2::after {
     display: block;
     content: ".........";
     color: var(--cor-secundaria);
@@ -57,4 +60,37 @@ nav .icones-redes i {
 }
 nav .icones-redes a:active, a:hover {
     color: var(--cor-secundaria);
+}
+@media only screen and (min-width: 826px) {
+    .container {
+        padding-top: 20px;
+    }
+    .nav-item i {
+        display: inline;
+    }
+    nav .icones-redes {
+        width: 200px;
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        top: 25px;
+    }
+    nav ul li a:hover{
+        border-top: 1px solid var(--cor-secundaria);
+    }
+    .itemnav i {
+        display: none;
+    }
+    .logo-mobile {
+        display: none;
+    }
+    .logo-desktop {
+        display: block;
+        position: relative;
+    }
+    .logo-desktop img {
+        position: absolute;
+        top: 20px;
+    }    
 }
