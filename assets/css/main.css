@@ -5,6 +5,9 @@
 a {
     color: var(--cor-primaria);
 }
+h2 {
+    font-size: 18px;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -93,4 +96,16 @@ nav .icones-redes a:active, a:hover {
         position: absolute;
         top: 20px;
     }    
+}
+/*---------------Seção Inicio-------------------------------------------------------------------*/
+.secao {
+    margin-top: 8rem;
+}
+.img-badges {
+    float: right;
+}
+#destaque-carousel {
+    margin-top: 25px;
+}
+@media only screen and (min-width: 826px) {
 }
