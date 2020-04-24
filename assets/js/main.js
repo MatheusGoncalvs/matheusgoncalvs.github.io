@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-const metaThemeColor = document.querySelector('meta[name=theme-color]');
-metaThemeColor.setAttribute('content', '#2b2b2b');
+    const metaThemeColor = document.querySelector('meta[name=theme-color]');
+    metaThemeColor.setAttribute('content', '#3AE374');
 
     $('#destaque-carousel').owlCarousel({
         loop: true,
