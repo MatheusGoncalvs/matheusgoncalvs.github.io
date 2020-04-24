@@ -181,6 +181,8 @@ nav .icones-redes a:active, a:hover {
     width: 100%;
     height: 170px;
     background-color: var(--cor-secundaria);
+    border: 1px var(--cor-secundaria) solid;
+    border-radius: 10px;
 }
 #skills .titulo-secao {
     margin-bottom: 2rem;
@@ -232,6 +234,9 @@ nav .icones-redes a:active, a:hover {
     }
 }
 /*---------------Seção Portifólio-------------------------------------------------------------------*/
+.p-bloco {
+    margin-bottom: 8rem;
+}
 .p-bloco h3 {
     float: right;
     color: var(--cor-secundaria);
@@ -241,4 +246,16 @@ nav .icones-redes a:active, a:hover {
 }
 .techs {
     padding-left: 55px;
+}
+/*---------------Seção Sobre-------------------------------------------------------------------*/
+.bg-sobre {
+    background-color: #fafafa;
+}
+.sobre-secao {
+    text-align: center;
+    padding: 7rem 2rem;
+}
+.sobre-secao h2 {
+    font-weight: bolder;
+    margin: 2rem 0;
 }
