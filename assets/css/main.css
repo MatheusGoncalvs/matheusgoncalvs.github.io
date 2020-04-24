@@ -189,6 +189,9 @@ nav .icones-redes a:active, a:hover {
     font-weight: bolder;
     font-size: 14px;
 }
+.bloco p {
+    min-height: 120px;
+}
 /*Personalização nos dots do owl carousel*/
 .owl-theme .owl-dots .owl-dot span {
     border: 1px solid #333333;
@@ -207,7 +210,7 @@ nav .icones-redes a:active, a:hover {
     .bloco {
         padding: 25px;
     }
-    .baner-skills {
-        height: 150px;
+    .bloco p {
+        min-height: 100px;
     }
 }
