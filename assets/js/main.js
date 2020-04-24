@@ -5,8 +5,6 @@ $(document).ready(function () {
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
         margin: 10,
-        nav: false,
-        dots: true,
         responsive: {
             0: {
                 items: 1
@@ -28,7 +26,6 @@ $(document).ready(function () {
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
         margin: 10,
-        nav: false,
         dots: true,
         responsive: {
             0: {
@@ -41,7 +38,7 @@ $(document).ready(function () {
                 items: 1
             },
             1000: {
-                items: 1
+                items: 2
             }
         }
     });

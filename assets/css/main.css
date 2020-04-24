@@ -139,21 +139,7 @@ nav .icones-redes a:active, a:hover {
 .banner .coluna-2 {
     display: none;
 }
-/*Personalização nos dots do owl carousel*/
-.owl-theme .owl-dots .owl-dot span {
-    border: 1px solid red;
-    background: blue !important;
-    border-radius: 45px !important;
-    position: absolute;
-    display: block;
-}
-.owl-theme .owl-dots .owl-dot.active span {
-   background: red !important;
-}
-.owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 45px !important;
-}
-@media only screen and (min-width: 826px) {
+@media only screen and (min-width: 800px) {
     .banner .coluna-1 {
         width: 50%;
         float: left;
@@ -176,9 +162,49 @@ nav .icones-redes a:active, a:hover {
 /*---------------Seção Skills-------------------------------------------------------------------*/
 .baner-skills {
     width: 100%;
-    height: 140px;
+    height: 150px;
     background-color: var(--cor-secundaria);
 }
 #skills .titulo-secao {
     margin-bottom: 2rem;
+}
+.bloco {
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+.bloco img {
+    float: left;
+    margin-right: 12px;
+}
+#computador {
+    width: 72px;
+    height: 64px;
+}
+#celular {
+    width: 40px;
+    height: 64px;
+}
+.bloco h2 {
+    font-weight: bolder;
+    font-size: 14px;
+}
+/*Personalização nos dots do owl carousel*/
+.owl-theme .owl-dots .owl-dot span {
+    border: 1px solid #333333;
+    background: none !important;
+    border-radius: 100% !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+   background: var(--cor-secundaria) !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    top: -3.8rem;
+    left: 12rem;
+}
+@media only screen and (min-width: 800px) {
+    .bloco {
+        padding: 25px;
+    }
 }
