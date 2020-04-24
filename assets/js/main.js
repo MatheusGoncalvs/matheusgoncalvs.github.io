@@ -1,4 +1,8 @@
 $(document).ready(function () {
+
+const metaThemeColor = document.querySelector('meta[name=theme-color]');
+metaThemeColor.setAttribute('content', '#2b2b2b');
+
     $('#destaque-carousel').owlCarousel({
         loop: true,
         autoplay: true,
