@@ -20,6 +20,9 @@ h4 {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.titulo-secao {
+    margin-bottom: 4rem;
+}
 /*-------Header-------------------------------------------------------------------------*/
 .logo-mobile {
     position: relative;
@@ -38,6 +41,12 @@ body {
     content: ".........";
     color: var(--cor-secundaria);
     margin-top: -12px;
+}
+.navbar {
+    padding: .5rem 0 1rem 0;
+}
+ul.navbar-nav {
+    margin-top: 5px;
 }
 .navbar button {
     float: right;
@@ -223,3 +232,13 @@ nav .icones-redes a:active, a:hover {
     }
 }
 /*---------------Seção Portifólio-------------------------------------------------------------------*/
+.p-bloco h3 {
+    float: right;
+    color: var(--cor-secundaria);
+}
+.p-bloco img {
+    margin-bottom: 30px;
+}
+.techs {
+    padding-left: 55px;
+}
