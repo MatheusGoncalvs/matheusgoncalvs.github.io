@@ -162,7 +162,7 @@ nav .icones-redes a:active, a:hover {
 /*---------------Seção Skills-------------------------------------------------------------------*/
 .baner-skills {
     width: 100%;
-    height: 150px;
+    height: 170px;
     background-color: var(--cor-secundaria);
 }
 #skills .titulo-secao {
@@ -206,5 +206,8 @@ nav .icones-redes a:active, a:hover {
 @media only screen and (min-width: 800px) {
     .bloco {
         padding: 25px;
+    }
+    .baner-skills {
+        height: 150px;
     }
 }
