@@ -3,6 +3,19 @@
     --cor-secundaria: #3AE374;
     --cor-terciaria: #FFFFFF;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style: none;
+}
+section, header, footer {
+    position: relative;
+    display: block;
+    width: 100%;
+}
 a {
     color: var(--cor-primaria);
 }
@@ -233,7 +246,7 @@ nav .icones-redes a:active, a:hover {
         min-height: 100px;
     }
 }
-/*---------------Seção Portifólio-------------------------------------------------------------------*/
+/*---------------Seção Portifólio---------------------------------------------------------------*/
 .p-bloco {
     margin-bottom: 8rem;
 }
@@ -259,9 +272,73 @@ nav .icones-redes a:active, a:hover {
     font-weight: bolder;
     margin: 2rem 0;
 }
+/*---------------Seção Contato------------------------------------------------------------------*/
 #contato .titulo-secao .coll-1 {
     float: left;
 }
 .contato-redes-sociais {
-    text-align: right;
+    text-align: left;
 }
+.coll-2 .contato-redes-sociais i {
+    margin: 0 10px;
+    font-size: 18px;
+}
+.content-fale input, textarea {
+    background-color: #f8f8f8 !important;
+}
+@media only screen and (min-width: 800px) {
+    .contato-redes-sociais {
+        text-align: right;
+    }
+}
+/*---------------Rodapé------------------------------------------------------------------*/
+.footer {
+    align-items: center !important;
+    overflow: hidden;
+}
+.resumo-footer {
+    padding: 70px 0;
+    padding-left: 10%;
+    min-height: 279px;
+    background-color: #fafafa;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 100px;
+    height: 66px;
+    float: left;
+}
+.marca-resumos {
+    margin-bottom: 25px;
+}
+.list-footer li:first-child .font-h2{
+    color: var(--cor-primaria);
+    margin-bottom: 10px;
+}
+.font-h2 {
+    font-weight: bolder;
+}
+#marca-rodape {
+    float: right;
+    margin-top: 20px;
+}
+@media only screen and (min-width: 410px) {
+}
+@media only screen and (min-width: 575px) {
+    .resumo-footer .col-sm-2 {
+        flex: 0 0 30%;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 825px) {
+    .resumo-footer .col-sm-2 {
+        flex: 0 0 16.6666%;
+        max-width: 16.6666%;
+    }
+    .coluna-alinhar-resumos {
+        display: none;
+    }
+} 
