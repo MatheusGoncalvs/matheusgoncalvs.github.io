@@ -259,3 +259,9 @@ nav .icones-redes a:active, a:hover {
     font-weight: bolder;
     margin: 2rem 0;
 }
+#fale-comigo .titulo-secao .coll-1 {
+    float: left;
+}
+.contato-redes-sociais {
+    text-align: right;
+}
