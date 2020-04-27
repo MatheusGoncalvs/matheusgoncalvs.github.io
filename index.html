@@ -238,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <section id="sobre" class="bg-sobre sobre-secao">
+        <section id="sobre" class="bg-sobre sobre-secao secao">
             <div class="container">
                 <div class="img-perfil">
                     <img src="./assets/images/perfil-img.png" alt="imagem-perfil">
@@ -283,7 +283,7 @@
                     </div>
                 </div>
                 <form>
-                    <div class="content-fale row">
+                    <div class="content-fale row justify-content-center">
                         <div class="col-sm-5">
                             <div class="form-group">
                                 <label for="nome">Qual o seu nome?</label>
@@ -298,7 +298,7 @@
                                 <input type="tel" class="form-control" id="telefone">
                             </div>
                         </div>
-                        <div class="col-sm-5">
+                        <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="assunto">Qual o assunto da mensagem?</label>
                                 <input type="text" class="form-control" id="assunto">
@@ -308,8 +308,8 @@
                                 <textarea class="form-control" id="mensagem" rows="4"></textarea>
                             </div>
                         </div>
+                        <button id="enviar-mensagem" class="btn btn-dark" value="Enviar email">Enviar mensagem</button>
                     </div>
-                    <button class="btn btn-dark" value="Enviar email">Enviar email</button>
                 </form>
             </div>
         </section>
@@ -400,15 +400,20 @@
                 </div>
             </div>
             <div class="container">
-                <div class="copyright">
-                    <p>2020 Copyright - Todos os direitos reservados</p>
+                <div class="copyright-content">
+                    <div class="copyright">
+                        <p>2020 Copyright - Todos os direitos reservados - <strong>MG</strong></p>
+                    </div>
                 </div>
-                <a href="http://www.matheusgoncalvs.github.io" target="_self">
-                    <h4></h4>
-                </a>
             </div>
         </footer>
     </main>
+    <div class="btn-top">
+        <a href="#top">
+            <div class="arrow-top">
+            </div>
+        </a>
+    </div>
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -422,9 +427,6 @@
     <script src="owl/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
     <script src="owl/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/6b41a901f3.js" crossorigin="anonymous"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZQCFsefID9xmE9R0wOmcfs_jmJrLERk4&callback=initMap">
-        </script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
     <script src="assets/js/main.js"></script>

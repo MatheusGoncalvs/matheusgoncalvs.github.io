@@ -74,4 +74,27 @@ $(document).ready(function () {
             }
         }
     });
+    //Sections animate scroller
+    const secoes = document.querySelectorAll('.secao');
+    const alturaTela = window.innerHeight;
+
+    const revelarSecoes = () => {
+        secoes.forEach(secao => {
+            const distanciaTopo = secao.getBoundingClientRect().top;
+            distanciaTopo < alturaTela - 50
+                ? secao.classList.add('scroll-revela')
+                : secao.classList.remove('scroll-revela');
+        });
+    };
+
+    window.addEventListener('load', () => revelarSecoes());
+    window.addEventListener('scroll', () => revelarSecoes());
+
+    let navToggle = document.getElementById('navbarNav');
+    navToggle.addEventListener("click", () => {
+        setTimeout(() => {
+            navToggle.classList.remove('show');
+        }, 2000);
+    });
+
 });

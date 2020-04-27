@@ -36,6 +36,19 @@ body {
 .titulo-secao {
     margin-bottom: 4rem;
 }
+.scroll-revela {
+    animation: fadeAndSlide 0.8s ease-in-out forwards;
+}
+@keyframes fadeAndSlide {
+    from {
+        margin-top: 120px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 6rem;
+        opacity: 1;
+    }
+}
 /*-------Header-------------------------------------------------------------------------*/
 .logo-mobile {
     position: relative;
@@ -132,6 +145,8 @@ nav .icones-redes a:active, a:hover {
 .secao {
     margin-top: 6rem;
     margin-bottom: 6rem;
+    padding-top: 10px;
+    opacity: 0;
 }
 .img-badges {
     float: right;
@@ -286,6 +301,9 @@ nav .icones-redes a:active, a:hover {
 .content-fale input, textarea {
     background-color: #f8f8f8 !important;
 }
+#assunto {
+    max-width: 350px;
+}
 @media only screen and (min-width: 800px) {
     .contato-redes-sociais {
         text-align: right;
@@ -324,6 +342,29 @@ nav .icones-redes a:active, a:hover {
 #marca-rodape {
     float: right;
     margin-top: 20px;
+}
+.copyright-content {
+    position: relative;
+}
+.btn-top {
+    position: fixed;
+    top: 95%;
+    left: 90%;
+    background-color: #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    padding: 4px 0px 0px 10px;
+}
+.btn-top .arrow-top {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+}
+.footer a:hover {
+    text-decoration: none;
 }
 @media only screen and (min-width: 410px) {
 }
