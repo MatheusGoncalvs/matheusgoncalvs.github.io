@@ -22,7 +22,7 @@ $(document).ready(function () {
         }
     });
     $('#skills-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
@@ -83,7 +83,7 @@ $(document).ready(function () {
             const distanciaTopo = secao.getBoundingClientRect().top;
             distanciaTopo < alturaTela - 50
                 ? secao.classList.add('scroll-revela')
-                : secao.classList.remove('scroll-revela');
+                : secao.classList.add('scroll-mantem');
         });
     };
 
