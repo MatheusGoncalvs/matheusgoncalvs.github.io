@@ -205,12 +205,15 @@ nav .icones-redes a:active, a:hover {
     }
 }
 /*---------------Seção Skills-------------------------------------------------------------------*/
+#skills {
+    padding-bottom: 5rem;
+}
 .baner-skills {
     width: 100%;
     height: 170px;
-    background-color: var(--cor-secundaria);
-    border: 1px var(--cor-secundaria) solid;
-    border-radius: 10px;
+}
+.bg-habilidades {
+    background-color: #fafafa;
 }
 #skills .titulo-secao {
     margin-bottom: 2rem;
@@ -225,12 +228,12 @@ nav .icones-redes a:active, a:hover {
     margin-right: 12px;
 }
 #computador {
-    width: 72px;
-    height: 64px;
+    width: 210px;
+    height: 105px;
 }
 #celular {
-    width: 40px;
-    height: 64px;
+    width: 210px;
+    height: 105px;
 }
 .bloco h2 {
     font-weight: bolder;
@@ -241,12 +244,13 @@ nav .icones-redes a:active, a:hover {
 }
 /*Personalização nos dots do owl carousel*/
 .owl-theme .owl-dots .owl-dot span {
-    border: 1px solid #333333;
+    border: 1px solid #e5e5e5;
     background: none !important;
     border-radius: 100% !important;
 }
 .owl-theme .owl-dots .owl-dot.active span {
    background: var(--cor-secundaria) !important;
+   border: none;
 }
 .owl-theme .owl-nav.disabled+.owl-dots {
     position: absolute;

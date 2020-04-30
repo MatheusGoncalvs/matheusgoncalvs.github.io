@@ -22,7 +22,7 @@ $(document).ready(function () {
         }
     });
     $('#skills-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
@@ -95,6 +95,31 @@ $(document).ready(function () {
         setTimeout(() => {
             navToggle.classList.remove('show');
         }, 2000);
+    });
+
+    //nodemailer
+    const nodemailer = require('nodemailer');
+
+    let transporter = nodemailer.createTransport({
+        host: "",
+        port: 587,
+        secure: false,
+        auth: {
+            user: "",
+            pass: ""
+        }
+    });
+
+    transporter.sendMail({
+        from: "Matheus Goncalves <matheusdevnascimento@gmail.com>",
+        to: "matheusgoncalvs@gmail.com",
+        subject: "Olá, teste from nodemailer!",
+        text: "Mensagem teste",
+        html:""
+    }).then(message => {
+        console.log(message);
+    }).catch(err => {
+        console.log(err);
     });
 
 });
