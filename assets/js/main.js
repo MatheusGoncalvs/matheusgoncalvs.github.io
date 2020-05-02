@@ -86,10 +86,22 @@ $(document).ready(function () {
                 : secao.classList.add('scroll-mantem');
         });
     };
-
     window.addEventListener('load', () => revelarSecoes());
     window.addEventListener('scroll', () => revelarSecoes());
 
+    //Hide top bottom when scroll < 50
+    let btntop = document.getElementById('btn-top');
+    const localeBody = document.getElementById('top');
+
+    const showButtonTop = () => {
+        const distanceOfTop = localeBody.getBoundingClientRect().top;
+        distanceOfTop < -140
+            ? btntop.classList.add('btn-top-enabled')
+            : btntop.classList.remove('btn-top-enabled');
+    }
+    window.addEventListener('scroll', () => showButtonTop());
+
+    //To closing navbar on click
     let navToggle = document.getElementById('navbarNav');
     navToggle.addEventListener("click", () => {
         setTimeout(() => {
@@ -115,7 +127,7 @@ $(document).ready(function () {
         to: "matheusgoncalvs@gmail.com",
         subject: "Olá, teste from nodemailer!",
         text: "Mensagem teste",
-        html:""
+        html: ""
     }).then(message => {
         console.log(message);
     }).catch(err => {

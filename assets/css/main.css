@@ -52,6 +52,7 @@ body {
         opacity: 1;
     }
 }
+
 /*-------Header-------------------------------------------------------------------------*/
 .logo-mobile {
     position: relative;
@@ -187,7 +188,7 @@ nav .icones-redes a:active, a:hover {
 .banner .coluna-2 {
     display: none;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
     .banner .coluna-1 {
         width: 50%;
         float: left;
@@ -304,6 +305,11 @@ nav .icones-redes a:active, a:hover {
     font-weight: bolder;
     margin: 2rem 0;
 }
+.sobre-secao p {
+    display: block;
+    margin: 0 auto;
+    max-width: 50rem;
+}
 /*---------------Seção Contato------------------------------------------------------------------*/
 #contato .titulo-secao .coll-1 {
     float: left;
@@ -364,6 +370,7 @@ nav .icones-redes a:active, a:hover {
     position: relative;
 }
 .btn-top {
+    display: none;
     position: fixed;
     top: 95%;
     left: 90%;
@@ -379,6 +386,9 @@ nav .icones-redes a:active, a:hover {
     display: inline-block;
     padding: 3px;
     transform: rotate(-135deg);
+}
+.btn-top-enabled {
+    display: block;
 }
 .footer a:hover {
     text-decoration: none;
