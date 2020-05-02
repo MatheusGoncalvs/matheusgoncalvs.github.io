@@ -112,7 +112,7 @@ nav .icones-redes i {
 nav .icones-redes a:active, a:hover {
     color: var(--cor-secundaria);
 }
-@media only screen and (min-width: 826px) {
+@media only screen and (min-width: 825px) {
     .container {
         padding-top: 20px;
     }
@@ -233,7 +233,7 @@ nav .icones-redes a:active, a:hover {
     margin: 10px auto;
 }
 #img-bloco {
-    width: 210px;
+    width: 300px;
     height: 105px;
 }
 .bloco h2 {
@@ -258,7 +258,7 @@ nav .icones-redes a:active, a:hover {
     top: -3.8rem;
     left: 12rem;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 825px) {
     .bloco {
         padding: 25px;
     }
@@ -268,6 +268,9 @@ nav .icones-redes a:active, a:hover {
     .bloco img {
         float: left;
         margin-right: 12px;
+    }
+    #img-bloco {
+        width: 210px;
     }
     .bloco h2 {
         padding-left: 40px;
@@ -287,7 +290,17 @@ nav .icones-redes a:active, a:hover {
 .techs {
     padding-top: 20px;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 410px) {
+}
+@media only screen and (min-width: 575px) {
+    .p-bloco img {
+        max-width: 230px;
+    }
+}
+@media only screen and (min-width: 825px) {
+    .p-bloco img {
+        max-width: 300px;
+    }
     .techs {
         padding-top: 0px;
         padding-left: 55px;
@@ -327,10 +340,12 @@ nav .icones-redes a:active, a:hover {
 #assunto {
     max-width: 350px;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 575px) {
     .contato-redes-sociais {
         text-align: right;
     }
+}
+@media only screen and (min-width: 825px) {
 }
 /*---------------Rodapé------------------------------------------------------------------*/
 .footer {
@@ -339,7 +354,7 @@ nav .icones-redes a:active, a:hover {
 }
 .resumo-footer {
     padding: 70px 0;
-    padding-left: 10%;
+    padding-left: 5%;
     min-height: 279px;
     background-color: #fafafa;
 }
@@ -396,15 +411,15 @@ nav .icones-redes a:active, a:hover {
 @media only screen and (min-width: 410px) {
 }
 @media only screen and (min-width: 575px) {
-    .resumo-footer .col-sm-2 {
-        flex: 0 0 30%;
-        max-width: 100%;
+    .btn-top {
+        top: 90%;
+        left: 95%;
     }
 }
 @media only screen and (min-width: 825px) {
-    .resumo-footer .col-sm-2 {
-        flex: 0 0 16.6666%;
-        max-width: 16.6666%;
+    .btn-top {
+        top: 95%;
+        left: 90%;
     }
     .coluna-alinhar-resumos {
         display: none;
