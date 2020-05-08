@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Personal page
+  My Personal page
 </h3>
 
 
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#runner-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;
 </p>
@@ -31,9 +31,8 @@
 <br>
 
 
-## :rocket: About the project
-  The goal of this project was to learn the fundamentals of NextJS and integrate with external services like the database feature provided by Firebase. The page transitions are made Framer Motion that provides a great api support to Server Side Rendering.
-Also, i choosed tailwind for styling the most part of the app because of the agility that utility classes are able provide.
+## :rocket: Sobre o projeto
+  
 ## :runner: Installation 
 
 ```   
