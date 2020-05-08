@@ -32,6 +32,7 @@
 
 ## :zap: Sobre o projeto
   Em breve...
+## :trophy: Conhecimentos adquiridos
 ## :rocket: Vizualizar
 
 [Veja o site em produção](https://matheusgoncalvs.github.io/)
