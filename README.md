@@ -17,6 +17,7 @@
 
 <p align="center">
   <a href="#zap-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#trophy-conhecimentos-adquiridos">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-vizualizar">Vizualizar</a>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -31,8 +32,9 @@
 
 
 ## :zap: Sobre o projeto
-  Em breve...
+Em breve...
 ## :trophy: Conhecimentos adquiridos
+Soon...
 ## :rocket: Vizualizar
 
 [Veja o site em produção](https://matheusgoncalvs.github.io/)
