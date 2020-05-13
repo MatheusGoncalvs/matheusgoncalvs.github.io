@@ -38,6 +38,7 @@ Site pessoal desenvolvido no estilo de uma página única com o objetivo de trei
 - [x] Manipulação do DOM com JS
 - [x] Utilização de bibliotecas externas
 - [x] Git e Github
+- [x] Conceitos de UI e UX
 ## :rocket: Vizualizar
 
 [Veja o site](https://matheusgoncalvs.github.io/)
