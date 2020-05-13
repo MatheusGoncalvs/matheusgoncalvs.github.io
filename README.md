@@ -22,19 +22,12 @@
 </p>
 
 <br>
-<p align="center">
-  <img align="center" src="./" alt="img01" border="0">
-</p>
-<p align="center">
-  <img align="center" src="" alt="img02" border="0">
-</p>
-<br>
 
 
 ## :zap: Sobre o projeto
-Em breve...
+Site pessoal desenvolvido no padrão de um Landing Page com o objetivo de treinar as linguagens HTML, CSS e JS. Além de ter um site para mostrar o meu portifólio.
 ## :trophy: Conhecimentos adquiridos
-Soon...
+Básico de HTML5, Responsividade, Animações com CSS, Manipulação do DOM com JS, Utilização de bibliotecas.
 ## :rocket: Vizualizar
 
 [Veja o site em produção](https://matheusgoncalvs.github.io/)
