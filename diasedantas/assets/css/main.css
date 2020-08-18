@@ -54,3 +54,14 @@ body img {
 	width: 100%;
 	height: auto;
 }
+.img-desktop {
+	display: none;
+}
+@media only screen and (min-width: 500px) {
+	.img-desktop {
+		display: block;
+	}
+	.img-mobile {
+		display: none;
+	}
+}
