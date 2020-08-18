@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://matheusgoncalvs.github.io/">
+    <img src="https://matheusgoncalvs.github.io/assets/images/logo-desktop.png" alt="Logo" width=194 height=45>
+  </a>
+</p>
 <h1 align="center">
   Landing Page
 </h1>
@@ -17,27 +22,26 @@
 
 <p align="center">
   <a href="#zap-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#trophy-conhecimentos-adquiridos">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#trophy-conhecimentos-adquiridos-e-utilizados">Conhecimentos adquiridos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-vizualizar">Vizualizar</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
-<p align="center">
-  <img align="center" src="./" alt="img01" border="0">
-</p>
-<p align="center">
-  <img align="center" src="" alt="img02" border="0">
-</p>
-<br>
 
 
 ## :zap: Sobre o projeto
-Em breve...
-## :trophy: Conhecimentos adquiridos
-Soon...
+Site pessoal desenvolvido no estilo de uma página única com o objetivo de treinar as linguagens HTML, CSS e JS. Além de ter um site para mostrar o meu portifólio.
+## :trophy: Conhecimentos adquiridos e utilizados
+- [x] HTML5 e CSS básico
+- [x] Responsividade
+- [x] Animações CSS
+- [x] Manipulação do DOM com JS
+- [x] Utilização de bibliotecas externas
+- [x] Git e Github
+- [x] Conceitos de UI e UX
 ## :rocket: Vizualizar
 
-[Veja o site em produção](https://matheusgoncalvs.github.io/)
+[Veja o site](https://matheusgoncalvs.github.io/)
 
 ---
 
