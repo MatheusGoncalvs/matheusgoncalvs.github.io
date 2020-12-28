@@ -8,7 +8,7 @@
 </h1>
 
 <h3 align="center">
-  My Personal web site
+  Landing Page with Vanilla Js.
 </h3>
 
 
@@ -30,7 +30,7 @@
 
 
 ## :zap: Sobre o projeto
-Site pessoal desenvolvido no estilo de uma página única com o objetivo de treinar as linguagens HTML, CSS e JS. Além de ter um site para mostrar o meu portifólio.
+Landing Page desenvolvida com o propósito de aplicar a teoria sobre JS, CSS e HTML. 
 ## :trophy: Conhecimentos adquiridos e utilizados
 - [x] HTML5 e CSS básico
 - [x] Responsividade
