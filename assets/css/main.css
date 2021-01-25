@@ -3,45 +3,60 @@
     --cor-secundaria: #3AE374;
     --cor-terciaria: #FFFFFF;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul, li {
+
+ul,
+li {
     list-style: none;
 }
-section, header, footer {
+
+section,
+header,
+footer {
     position: relative;
     display: block;
     width: 100%;
 }
+
 a {
     color: var(--cor-primaria);
 }
+
 h2 {
     font-size: 18px;
 }
+
 h3 {
     font-size: 14px;
 }
+
 h4 {
-    font-size: 12px;
+    font-size: 14px;
     background-color: #fcfcfc;
     display: inline-block;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .titulo-secao {
     margin-bottom: 4rem;
 }
+
 .scroll-revela {
     animation: fadeAndSlide 0.8s ease-in-out forwards;
 }
+
 .scroll-mantem {
     opacity: 1;
 }
+
 @keyframes fadeAndSlide {
     from {
         margin-top: 120px;
@@ -53,65 +68,86 @@ body {
     }
 }
 
+
 /*-------Header-------------------------------------------------------------------------*/
+
 .logo-mobile {
     position: relative;
 }
+
 .logo-desktop {
     display: none;
 }
+
 .logo-mobile h2 {
     position: absolute;
     font-size: 20px;
     font-weight: 600;
     margin-top: 15px;
 }
+
 .logo-mobile h2::after {
     display: block;
     content: ".........";
     color: var(--cor-secundaria);
     margin-top: -12px;
 }
+
 .navbar {
     padding: .5rem 0 1rem 0;
 }
+
 ul.navbar-nav {
     margin-top: 5px;
 }
+
 .navbar button {
     float: right;
 }
+
 button:focus {
     outline: none;
 }
+
 .navbar-light .navbar-toggler {
     border-color: transparent;
 }
-.navbar-toggler:focus, .navbar-toggler:hover .navbar-toggler:active {
+
+.navbar-toggler:focus,
+.navbar-toggler:hover .navbar-toggler:active {
     text-decoration: none;
 }
+
 .button-toggle {
     display: block;
     width: 100%;
 }
+
 .bg-light {
     background-color: transparent !important;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: var(--cor-primaria);
 }
+
 .nav-item i {
     float: left;
     padding-top: 10px;
     padding-right: 7px;
 }
+
 nav .icones-redes i {
     padding-top: 20px;
     margin-right: 13px;
+    font-size: 22px;
 }
-nav .icones-redes a:active, a:hover {
+
+nav .icones-redes a:active,
+a:hover {
     color: var(--cor-secundaria);
 }
+
 @media only screen and (min-width: 825px) {
     .container {
         padding-top: 20px;
@@ -127,7 +163,7 @@ nav .icones-redes a:active, a:hover {
         transform: translate(-50%, -50%);
         top: 25px;
     }
-    nav ul li a:hover{
+    nav ul li a:hover {
         border-top: 1px solid var(--cor-secundaria);
     }
     .itemnav i {
@@ -143,30 +179,38 @@ nav .icones-redes a:active, a:hover {
     .logo-desktop img {
         position: absolute;
         top: 20px;
-    }    
+    }
 }
+
+
 /*---------------Seção Inicio-------------------------------------------------------------------*/
+
 .secao {
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding-top: 10px;
     opacity: 0;
 }
+
 .img-badges {
     float: right;
 }
+
 #destaque-carousel {
     margin-top: 4rem;
 }
+
 .banner {
     width: 100%;
 }
+
 .banner .coluna-1 {
     position: relative;
     width: 100%;
     height: 200px;
     background-color: var(--cor-secundaria);
 }
+
 .coluna-1 img {
     position: absolute;
     left: 100%;
@@ -175,19 +219,23 @@ nav .icones-redes a:active, a:hover {
     width: 115px !important;
     height: 128px;
 }
+
 .banner .coluna-1 .texto-esquerda {
     padding: 20px;
     width: 90%;
     font-size: 14px;
 }
+
 .banner .coluna-1 .texto-esquerda h2 {
     font-size: 20px;
     font-weight: bolder;
     color: var(--cor-terciaria);
 }
+
 .banner .coluna-2 {
     display: none;
 }
+
 @media only screen and (min-width: 600px) {
     .banner .coluna-1 {
         width: 50%;
@@ -208,56 +256,73 @@ nav .icones-redes a:active, a:hover {
         font-size: 28px;
     }
 }
+
+
 /*---------------Seção Skills-------------------------------------------------------------------*/
+
 #skills {
     padding-bottom: 9rem;
     padding-top: 20px;
 }
+
 .baner-skills {
     width: 100%;
     height: 170px;
 }
+
 .bg-habilidades {
     background-color: #fafafa;
 }
+
 #skills .titulo-secao {
     margin-bottom: 2rem;
 }
+
 .bloco {
     width: 100%;
     padding: 10px;
     float: left;
 }
+
 .bloco img {
     display: block;
     margin: 10px auto;
 }
+
 #img-bloco {
     width: 300px;
     height: 105px;
 }
+
 .bloco h2 {
     font-weight: bolder;
     font-size: 14px;
 }
+
 .bloco p {
     min-height: 120px;
 }
+
+
 /*Personalização nos dots do owl carousel*/
+
 .owl-theme .owl-dots .owl-dot span {
     border: 1px solid #e5e5e5;
     background: none !important;
     border-radius: 100% !important;
 }
+
 .owl-theme .owl-dots .owl-dot.active span {
-   background: var(--cor-secundaria) !important;
-   border: none;
+    background: var(--cor-secundaria) !important;
+    border: none;
 }
+
 .owl-theme .owl-nav.disabled+.owl-dots {
     position: absolute;
     top: -3.8rem;
     left: 12rem;
 }
+
 @media only screen and (min-width: 825px) {
     .bloco {
         padding: 25px;
@@ -276,27 +341,35 @@ nav .icones-redes a:active, a:hover {
         padding-left: 40px;
     }
 }
+
+
 /*---------------Seção Portifólio---------------------------------------------------------------*/
+
 .p-bloco {
     margin-bottom: 8rem;
 }
+
 .p-bloco h3 {
     float: right;
     color: var(--cor-secundaria);
 }
+
 .p-bloco img {
     margin-bottom: 30px;
 }
+
 .techs {
     padding-top: 20px;
 }
-@media only screen and (min-width: 410px) {
-}
+
+@media only screen and (min-width: 410px) {}
+
 @media only screen and (min-width: 575px) {
     .p-bloco img {
         max-width: 230px;
     }
 }
+
 @media only screen and (min-width: 825px) {
     .p-bloco img {
         max-width: 300px;
@@ -306,56 +379,78 @@ nav .icones-redes a:active, a:hover {
         padding-left: 55px;
     }
 }
+
+
 /*---------------Seção Sobre-------------------------------------------------------------------*/
+
 .bg-sobre {
     background-color: #fafafa;
 }
+
 .sobre-secao {
     text-align: center;
     padding: 7rem 2rem;
 }
+
 .sobre-secao h2 {
     font-weight: bolder;
     margin: 2rem 0;
 }
+
 .sobre-secao p {
     display: block;
     margin: 0 auto;
     max-width: 50rem;
 }
+
+
 /*---------------Seção Contato------------------------------------------------------------------*/
+
 #contato .titulo-secao .coll-1 {
     float: left;
 }
+
 .contato-redes-sociais {
     text-align: left;
 }
+
 .coll-2 .contato-redes-sociais i {
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 22px;
 }
-.content-fale input, textarea {
+
+.content-fale input,
+textarea {
     background-color: #f8f8f8 !important;
 }
+
 #assunto {
     max-width: 350px;
 }
+
 @media only screen and (min-width: 575px) {
     .contato-redes-sociais {
         text-align: right;
     }
 }
-@media only screen and (min-width: 825px) {
-}
+
+@media only screen and (min-width: 825px) {}
+
+
 /*---------------Rodapé------------------------------------------------------------------*/
+
 .footer {
     align-items: center !important;
     overflow: hidden;
 }
+
 .resumo-footer {
     padding: 70px 0;
     padding-left: 5%;
     min-height: 279px;
+}
+
+.bg-footer {
     background-color: #fafafa;
 }
 
@@ -367,23 +462,29 @@ nav .icones-redes a:active, a:hover {
     height: 66px;
     float: left;
 }
+
 .marca-resumos {
     margin-bottom: 25px;
 }
-.list-footer li:first-child .font-h2{
+
+.list-footer li:first-child .font-h2 {
     color: var(--cor-primaria);
     margin-bottom: 10px;
 }
+
 .font-h2 {
     font-weight: bolder;
 }
+
 #marca-rodape {
     float: right;
     margin-top: 20px;
 }
+
 .copyright-content {
     position: relative;
 }
+
 .btn-top {
     display: none;
     position: fixed;
@@ -395,6 +496,7 @@ nav .icones-redes a:active, a:hover {
     border-radius: 40px;
     padding: 4px 0px 0px 10px;
 }
+
 .btn-top .arrow-top {
     border: solid #fff;
     border-width: 0 3px 3px 0;
@@ -402,20 +504,24 @@ nav .icones-redes a:active, a:hover {
     padding: 3px;
     transform: rotate(-135deg);
 }
+
 .btn-top-enabled {
     display: block;
 }
+
 .footer a:hover {
     text-decoration: none;
 }
-@media only screen and (min-width: 410px) {
-}
+
+@media only screen and (min-width: 410px) {}
+
 @media only screen and (min-width: 575px) {
     .btn-top {
         top: 90%;
         left: 95%;
     }
 }
+
 @media only screen and (min-width: 825px) {
     .btn-top {
         top: 95%;
@@ -424,4 +530,4 @@ nav .icones-redes a:active, a:hover {
     .coluna-alinhar-resumos {
         display: none;
     }
-} 
+}
