@@ -331,4 +331,7 @@ h2 {
     .badge {
         margin-right: 0;
     }
+    .area-de-atuacao h3 {
+        margin-bottom: 1rem;
+    }
 }
