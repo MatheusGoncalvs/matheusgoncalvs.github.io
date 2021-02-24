@@ -148,7 +148,7 @@ h2 {
 /** ---------------------------- Section Banner Principal --------------------------------------------------------------------------- **/
 
 .bg-banner-principal {
-    background-image: url("/assets/images/bg-madeira-destaque-principal.png");
+    background-image: url("../../../advocacia/assets/images/bg-madeira-destaque-principal.png");
     width: 100vw;
     height: 50vh;
 }
