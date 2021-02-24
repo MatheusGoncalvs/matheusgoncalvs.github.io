@@ -280,7 +280,7 @@ h2 {
 }
 
 .coluna-8 img {
-    width: 600px;
+    width: 100%;
 }
 
 .app-router {
@@ -311,4 +311,24 @@ h2 {
 
 .saiba-mais h4 {
     font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-router {
+        flex-direction: column;
+    }
+    .coluna-4 {
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    .router-content {
+        padding: 0;
+    }
+    .saiba-mais {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .badge {
+        margin-right: 0;
+    }
 }
