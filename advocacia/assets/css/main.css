@@ -149,7 +149,6 @@ h2 {
 
 .bg-banner-principal {
     background-image: url("../../../advocacia/assets/images/bg-madeira-destaque-principal.png");
-    width: 100vw;
     height: 50vh;
 }
 
@@ -194,6 +193,15 @@ h2 {
     width: 18rem;
 }
 
+.arrow-banner {
+    font-size: 40px;
+    color: var(--color-6);
+    position: absolute;
+    top: 36rem;
+    background-color: var(--color-3);
+    border-radius: 45%;
+}
+
 @media only screen and (max-width: 600px) {
     .text-line {
         width: 85vw;
@@ -203,7 +211,7 @@ h2 {
     .text-line::after {
         font-size: 18px;
         top: -10px;
-        left: 1rem;
+        left: 2.2rem;
         width: 15rem;
     }
     .banner .text {
@@ -220,4 +228,87 @@ h2 {
     .bg-banner-principal {
         height: 90vh;
     }
+}
+
+
+/** ---------------------------- Section Áreas de atuação --------------------------------------------------------------------------- **/
+
+.area-de-atuacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.atuacao-titulo h2 {
+    color: var(--color-1);
+    margin-bottom: 1rem;
+}
+
+.area-de-atuacao h3 {
+    font-weight: 300;
+}
+
+.badges-areas {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    min-width: 150px;
+    border: 2px solid var(--color-1);
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.badge-active {
+    background-color: var(--color-1);
+    color: var(--color-3);
+}
+
+.coluna-4 {
+    width: 54%;
+}
+
+.coluna-8 {
+    border: 1px solid var(--color-6);
+    padding: 1rem;
+}
+
+.coluna-8 img {
+    width: 600px;
+}
+
+.app-router {
+    margin-top: 4rem;
+    display: flex;
+}
+
+.router-titulo {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-6);
+    color: var(--color-1);
+}
+
+.router-content {
+    padding-right: 4rem;
+}
+
+.saiba-mais {
+    padding: 0.5rem;
+    background-color: var(--color-1);
+    border-radius: 10px;
+    color: var(--color-3);
+    width: 140px;
+    float: right;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.saiba-mais h4 {
+    font-weight: 300;
 }
