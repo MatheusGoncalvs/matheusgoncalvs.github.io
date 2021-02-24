@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
     $('#badges-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         autoplay: false,
         autoplayTimeout: 80000,
         autoplayHoverPause: true,
-        margin: 100,
+        margin: 50,
         dots: false,
         responsive: {
             0: {
