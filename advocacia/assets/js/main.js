@@ -12,13 +12,7 @@ $(document).ready(function() {
                 items: 2
             },
             800: {
-                items: 10
-            },
-            645: {
-                items: 10
-            },
-            1000: {
-                items: 10
+                items: 7
             }
         }
     });
