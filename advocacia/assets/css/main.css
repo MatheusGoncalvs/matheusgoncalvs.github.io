@@ -237,7 +237,8 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem 0;
+    padding: 10rem 0;
+    background-color: white;
 }
 
 .atuacao-titulo h2 {
@@ -338,4 +339,188 @@ h2 {
         top: 40.4rem;
         background-color: transparent;
     }
+}
+
+
+/** ---------------------------- Section Nossos Advogados --------------------------------------------------------------------------- **/
+
+.nossos-advogados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+.advogados-titulo h1 {
+    color: var(--color-1);
+    text-align: center;
+}
+
+.bloco-advogados {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.img-quadrado {
+    border: 1px solid var(--color-1);
+    padding: 0.2rem;
+}
+
+.img-quadrado img {
+    width: 200px;
+}
+
+.adv-content-name {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--color-6);
+    margin-bottom: 0.5rem;
+    color: var(--color-1);
+}
+
+.bloco-advogados h3 {
+    font-weight: 400;
+}
+
+.coluna-advogados-2 {
+    padding: 0 2rem;
+    width: 60%;
+}
+
+.quotes {
+    color: var(--color-1);
+    font-size: 85px;
+    font-family: 'Secular One', sans-serif;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .bloco-advogados {
+        flex-direction: column;
+    }
+    .coluna-advogados-2 {
+        width: auto;
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .img-quadrado {
+        width: 63.5%;
+    }
+    .nossos-advogados {
+        padding: 5rem 0;
+    }
+    .area-de-atuacao {
+        padding: 5rem 0;
+    }
+}
+
+
+/** ---------------------------- Section Nossos Advogados --------------------------------------------------------------------------- **/
+
+.nosso-escritorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0;
+}
+
+.escritorio-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco-escritorio {
+    padding: 2rem;
+}
+
+.escritorio-conteudo table {
+    color: var(--color-3);
+    font-size: 20px;
+}
+
+.badge-nome-escritorio {
+    border: 2px solid var(--color-3);
+    padding: 1rem;
+    border-radius: 18px;
+    margin: 2rem 0;
+    color: var(--color-3);
+    width: 250px;
+}
+
+.escritorio-titulo {
+    color: var(--color-3);
+}
+
+.bg-nosso-escritorio {
+    background-image: url("../images/bg-escritorios.png");
+    background-repeat: repeat;
+    background-position-x: 50%;
+}
+
+.escritorio-enderecos {
+    display: flex;
+    color: var(--color-3);
+}
+
+.endereco-col {
+    margin-right: 2rem;
+}
+
+.escritorio-enderecos h3 {
+    padding: 0.3rem 0;
+}
+
+.icon-marker {
+    margin-right: 1rem;
+    font-size: 30px;
+}
+
+.escritorio-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .escritorio-enderecos {
+        flex-direction: column;
+    }
+    .icon-marker {
+        display: none !important;
+    }
+}
+
+
+/** ---------------------------- Section noticias --------------------------------------------------------------------------- **/
+
+.noticias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.bg-noticias {
+    background-color: var(--color-1);
+    width: 100vw;
+    padding: 1rem;
+}
+
+.noticias-content {
+    display: flex;
+    align-items: center;
+    color: var(--color-3);
+    justify-content: center;
+    width: 96vw;
+}
+
+.noticia-col {
+    margin-right: 1rem;
+    font-size: 26px;
+}
+
+.noticia-col-1 h3 {
+    font-weight: 400;
 }
