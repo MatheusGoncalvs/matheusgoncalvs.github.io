@@ -524,3 +524,83 @@ h2 {
 .noticia-col-1 h3 {
     font-weight: 400;
 }
+
+
+/** ---------------------------- Section Contatos --------------------------------------------------------------------------- **/
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+
+/** ---------------------------- Section Rodape --------------------------------------------------------------------------- **/
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+    background-color: var(--color-4);
+}
+
+.rodape-content {
+    display: flex;
+}
+
+.rodape-content a,
+.rodape-content h3 {
+    font-weight: 400;
+    color: var(--color-1);
+    margin: 0.5rem 0;
+    font-size: 18px;
+}
+
+.rodape-col {
+    margin-right: 4rem;
+}
+
+.rodape-col-2 {
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape-direitos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+.rodape-direitos a {
+    color: var(--color-3);
+}
+
+.rodape-direitos h3 {
+    font-weight: 300;
+    float: left;
+}
+
+.matheus-logo {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.matheus-logo .m-logo-col {
+    padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .rodape-col-1 {
+        display: none;
+    }
+    .rodape-col {
+        margin-right: 1rem;
+    }
+}
